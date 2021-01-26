@@ -1,3 +1,45 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (min-width: 1114px) {
+  .container {
+    max-width: 1114px;
+    margin: auto;
+  }
+}
+body > header .header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+body > header .invite_button {
+  display: none;
+}
+
+@media (min-width: 1114px) {
+  body header .invite_button {
+    display: block;
+  }
+}
 input[type=checkbox] {
   display: none;
 }
@@ -51,7 +93,7 @@ input[type=checkbox]:checked ~ header label.icon_close {
   font-weight: 700;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1114px) {
   header nav {
     position: static;
     transition: none;
