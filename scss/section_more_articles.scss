@@ -22,3 +22,15 @@
         }
     }
 }
+
+@media(min-width: 1114px) {
+    .section_more_articles {
+        .section_more_articles_container {
+            .aticles_container {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                column-gap: 30px;
+            }
+        }
+    }
+}

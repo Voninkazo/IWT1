@@ -164,6 +164,21 @@ input[type=checkbox]:checked ~ header label.icon_close {
   text-align: center;
 }
 
+@media (min-width: 1114px) {
+  .section_advantages .section_advantages_container .introduction_container h3,
+.section_advantages .section_advantages_container .introduction_container p {
+    text-align: start;
+  }
+  .section_advantages .section_advantages_container article {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-top: 80px;
+  }
+  .section_advantages .section_advantages_container .articles {
+    text-align: start;
+  }
+}
 .section_more_articles {
   background-color: #f0f4f5;
   padding-top: 80px;
@@ -185,6 +200,14 @@ input[type=checkbox]:checked ~ header label.icon_close {
 .section_more_articles .section_more_articles_container article .article_container {
   background-color: #ffffff;
   padding: 40px 30px;
+}
+
+@media (min-width: 1114px) {
+  .section_more_articles .section_more_articles_container .aticles_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+  }
 }
 
 /*# sourceMappingURL=/_index.722ae79c.css.map */
