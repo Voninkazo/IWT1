@@ -157,7 +157,6 @@ input[type=checkbox]:checked ~ header label.icon_close {
 }
 .section_advantages {
   padding-top: 80px;
-  padding-bottom: 80px;
   background-color: #eef4f6;
 }
 .section_advantages .section_advantages_container .articles {
@@ -182,6 +181,7 @@ input[type=checkbox]:checked ~ header label.icon_close {
 .section_more_articles {
   background-color: #f0f4f5;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 .section_more_articles .section_more_articles_container article {
   margin-top: 30px;
@@ -196,6 +196,7 @@ input[type=checkbox]:checked ~ header label.icon_close {
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  height: 163px;
 }
 .section_more_articles .section_more_articles_container article .article_container {
   background-color: #ffffff;
@@ -207,6 +208,9 @@ input[type=checkbox]:checked ~ header label.icon_close {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
+  }
+  .section_more_articles .section_more_articles_container h3 {
+    text-align: start;
   }
 }
 
