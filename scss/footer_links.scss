@@ -7,3 +7,14 @@
         li {}
     }
 }
+
+@media(min-width: 1114px) {
+    .footer_links_container {
+        text-align: start;
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 130px;
+        }
+    }
+}

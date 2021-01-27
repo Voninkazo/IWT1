@@ -14,3 +14,10 @@
         }
     }
 }
+
+@media(min-width:1114px) {
+    .all_icons_container {
+        align-items: baseline;
+        row-gap: 40px;
+    }
+}
