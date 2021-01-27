@@ -1,0 +1,24 @@
+.section_more_articles {
+    background-color: hsl(192, 20%, 95%);
+    padding-top: 80px;
+    .section_more_articles_container {
+        article {
+            margin-top: 30px;
+            .article_title {
+                font-size: 20px;
+            }
+            .article_text {
+                font-size: 18px;
+            }
+            .img_figcaption {
+                width: 100%;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .article_container {
+                background-color: #ffffff;
+                padding: 40px 30px;
+            }
+        }
+    }
+}
