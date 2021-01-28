@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\public_sans.woff2":[["public_sans.782abac5.woff2","fonts/public_sans.woff2"],"fonts/public_sans.woff2"],"./..\\fonts\\public_sans.woff":[["public_sans.dcf82283.woff","fonts/public_sans.woff"],"fonts/public_sans.woff"],"./..\\fonts\\public_sans_bold.woff2":[["public_sans_bold.ace27f6d.woff2","fonts/public_sans_bold.woff2"],"fonts/public_sans_bold.woff2"],"./..\\fonts\\public_sans_bold.woff":[["public_sans_bold.0b40f679.woff","fonts/public_sans_bold.woff"],"fonts/public_sans_bold.woff"],"./..\\fonts\\public_sans_md.woff2":[["public_sans_md.cf6ad835.woff2","fonts/public_sans_md.woff2"],"fonts/public_sans_md.woff2"],"./..\\fonts\\public_sans_md.woff":[["public_sans_md.da326fd1.woff","fonts/public_sans_md.woff"],"fonts/public_sans_md.woff"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60225" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54405" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

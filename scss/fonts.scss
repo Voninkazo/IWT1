@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Public Sans';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/public_sans.woff2) format('woff2'), url(../fonts/public_sans.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Public Sans Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/public_sans_bold.woff2) format('woff2'), url(../fonts/public_sans_bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Public Sans Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url(../fonts/public_sans_md.woff2) format('woff2'), url(../fonts/public_sans_md.woff) format('woff');
+}
