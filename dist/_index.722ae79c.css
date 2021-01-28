@@ -193,13 +193,13 @@ input[type=checkbox]:checked ~ header label.icon_close {
   padding-bottom: 50px;
   background-color: #eef4f6;
 }
-.section_advantages .section_advantages_container .articles {
+.section_advantages .section_advantages_container .section_advantages--articles {
   text-align: center;
 }
 
 @media (min-width: 1114px) {
-  .section_advantages .section_advantages_container .introduction_container h3,
-.section_advantages .section_advantages_container .introduction_container p {
+  .section_advantages .section_advantages_container .section__advantages--introduction h3,
+.section_advantages .section_advantages_container .section__advantages--introduction p {
     text-align: start;
   }
   .section_advantages .section_advantages_container article {
@@ -208,7 +208,7 @@ input[type=checkbox]:checked ~ header label.icon_close {
     gap: 30px;
     padding-top: 80px;
   }
-  .section_advantages .section_advantages_container .articles {
+  .section_advantages .section_advantages_container .section_advantages--articles {
     text-align: start;
   }
 }
@@ -217,33 +217,30 @@ input[type=checkbox]:checked ~ header label.icon_close {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.section_more_articles .section_more_articles_container article {
+
+.section_latest__articles--item {
   margin-top: 30px;
 }
-.section_more_articles .section_more_articles_container article .article_title {
-  font-size: 20px;
-}
-.section_more_articles .section_more_articles_container article .article_text {
-  font-size: 18px;
-}
-.section_more_articles .section_more_articles_container article .img_figcaption {
+
+.section_latest_articles--imgfigcaption {
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   height: 163px;
 }
-.section_more_articles .section_more_articles_container article .article_container {
+
+.section_latest__articles--textContainer {
   background-color: #ffffff;
   padding: 40px 30px;
 }
 
 @media (min-width: 1114px) {
-  .section_more_articles .section_more_articles_container .aticles_container {
+  .section_more_articles .section_latest__articles--subContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
   }
-  .section_more_articles .section_more_articles_container h3 {
+  .section_more_articles h3 {
     text-align: start;
   }
 }

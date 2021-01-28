@@ -3,7 +3,7 @@
     padding-bottom: 50px;
     background-color: hsl(195, 33%, 95%);
     .section_advantages_container {
-        .articles {
+        .section_advantages--articles {
             text-align: center;
         }
     }
@@ -12,7 +12,7 @@
 @media(min-width: 1114px) {
     .section_advantages {
         .section_advantages_container {
-            .introduction_container {
+            .section__advantages--introduction {
                 h3,
                 p {
                     text-align: start;
@@ -24,7 +24,7 @@
                 gap: 30px;
                 padding-top: 80px;
             }
-            .articles {
+            .section_advantages--articles {
                 text-align: start;
             }
         }
