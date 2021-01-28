@@ -15,5 +15,10 @@ body>header {
         .invite_button {
             display: block;
         }
+        .header_container {
+            .invite_button {
+                order: 1;
+            }
+        }
     }
 }
