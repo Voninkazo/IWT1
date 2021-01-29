@@ -63,15 +63,16 @@
             padding: 0;
             background: none;
         }
-        header label {
-            display: none;
-        }
         .navigation {
             ul {
                 flex-direction: row;
                 li {
                     margin-top: 0;
                     margin-left: 20px;
+                    a {
+                        color: hsl(0, 3%, 66%);
+                        font-weight: 500;
+                    }
                 }
                 li:not(:nth-of-type(1)) {
                     margin-top: 0;

@@ -11,14 +11,11 @@ body>header {
 }
 
 @media(min-width: 1114px) {
-    body header {
-        .invite_button {
-            display: block;
-        }
-        .header_container {
-            .button_invite--container {
-                order: 1;
-            }
-        }
+    body>header .button_invite--container {
+        display: block;
+        order: 1;
+    }
+    header label {
+        display: none;
     }
 }
