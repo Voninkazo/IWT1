@@ -59,6 +59,10 @@ a {
     margin: auto;
     padding: 0;
   }
+
+  h3 {
+    text-align: start;
+  }
 }
 body > header .header_container {
   display: flex;
@@ -163,28 +167,25 @@ input[type=checkbox]:checked ~ header label.icon_close {
   padding-left: 20px;
   padding-right: 20px;
 }
-.section_masthead .section_masthead_container {
+.section_masthead .section_masthead__mainContainer {
   margin-left: 7%;
 }
-.section_masthead .section_masthead_container .img_container img {
+.section_masthead .section_masthead__mainContainer .section_masthead__image--container img {
   width: 100%;
 }
 
 @media (min-width: 1114px) {
   .section_masthead {
-    padding-bottom: 0;
+    padding: 0;
   }
-  .section_masthead .section_masthead_container {
+  .section_masthead .section_masthead__mainContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     gap: 80px;
   }
-  .section_masthead .section_masthead_container .img_container {
-    order: 1;
-  }
-  .section_masthead .section_masthead_container .article_container {
+  .section_masthead .section_masthead--textContainer {
     max-width: 33%;
   }
 }
@@ -193,26 +194,23 @@ input[type=checkbox]:checked ~ header label.icon_close {
   padding-bottom: 50px;
   background-color: #eef4f6;
 }
-.section_advantages .section_advantages_container .section_advantages--articles {
+
+.section_advantages--articles {
   text-align: center;
 }
 
 @media (min-width: 1114px) {
-  .section_advantages .section_advantages_container .section__advantages--introduction h3,
-.section_advantages .section_advantages_container .section__advantages--introduction p {
-    text-align: start;
-  }
-  .section_advantages .section_advantages_container article {
+  .section_advantages .section_advantages--mainArticlesContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     padding-top: 80px;
   }
-  .section_advantages .section_advantages_container .section_advantages--articles {
+  .section_advantages .section_advantages--articles {
     text-align: start;
   }
 }
-.section_more_articles {
+.section_latest__articles {
   background-color: #f0f4f5;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -231,36 +229,30 @@ input[type=checkbox]:checked ~ header label.icon_close {
 
 .section_latest__articles--textContainer {
   background-color: #ffffff;
-  padding: 40px 30px;
+  padding: 30px 20px;
 }
 
 @media (min-width: 1114px) {
-  .section_more_articles .section_latest__articles--subContainer {
+  .section_latest__articles--subContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
-  }
-  .section_more_articles h3 {
-    text-align: start;
   }
 }
 body > footer {
   background-color: #2d314d;
   padding-top: 80px;
 }
-body > footer .footer_container {
+body > footer .footer_mainContainer {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding-bottom: 40px;
 }
-body > footer .footer_container .footer_logo {
+body > footer .footer_mainContainer .btn_invite {
   text-align: center;
 }
-body > footer .footer_container .btn_invite {
-  text-align: center;
-}
-body > footer .footer_container .all_icons_container {
+body > footer .footer_mainContainer .footer_icons--container {
   display: flex;
   flex-direction: column;
 }
@@ -269,45 +261,49 @@ body > footer .footer_container .all_icons_container {
   body > footer {
     padding-top: 30px;
   }
-  body > footer .footer_container {
+  body > footer .footer_mainContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 15px;
   }
 }
-.nav_icon_container {
+.footer_icons--container .footer_icons--logo {
+  text-align: center;
+}
+.footer_icons--container .footer_icons__links--container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
 }
-.nav_icon_container li a span {
+.footer_icons--container .footer_icons__links--container .footer_icons__links--item a span {
   display: none;
 }
-.nav_icon_container li a svg {
+.footer_icons--container .footer_icons__links--container .footer_icons__links--item a svg {
   fill: #fff;
 }
 
 @media (min-width: 1114px) {
-  .all_icons_container {
+  .footer_icons--container {
     align-items: baseline;
     row-gap: 40px;
   }
 }
-.footer_links_container {
+.footer_links--container {
   text-align: center;
 }
-.footer_links_container ul {
+.footer_links--container ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 @media (min-width: 1114px) {
-  .footer_links_container {
+  .footer_links--container {
     text-align: start;
   }
-  .footer_links_container ul {
+  .footer_links--container ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 130px;

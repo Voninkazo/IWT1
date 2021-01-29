@@ -3,9 +3,9 @@
     padding-bottom: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    .section_masthead_container {
+    .section_masthead__mainContainer {
         margin-left: 7%;
-        .img_container {
+        .section_masthead__image--container {
             img {
                 width: 100%;
             }
@@ -15,19 +15,16 @@
 
 @media(min-width:1114px) {
     .section_masthead {
-        padding-bottom: 0;
-        .section_masthead_container {
+        padding: 0;
+        .section_masthead__mainContainer {
             display: flex;
-            flex-direction: row;
+            flex-direction: row-reverse;
             align-items: center;
             justify-content: space-between;
             gap: 80px;
-            .img_container {
-                order: 1;
-            }
-            .article_container {
-                max-width: 33%;
-            }
+        }
+        .section_masthead--textContainer {
+            max-width: 33%;
         }
     }
 }

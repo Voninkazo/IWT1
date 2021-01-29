@@ -1,22 +1,27 @@
-.nav_icon_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    li {
-        a {
-            span {
-                display: none;
-            }
-            svg {
-                fill: #fff;
+.footer_icons--container {
+    .footer_icons--logo {
+        text-align: center;
+    }
+    .footer_icons__links--container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        .footer_icons__links--item {
+            a {
+                span {
+                    display: none;
+                }
+                svg {
+                    fill: #fff;
+                }
             }
         }
     }
 }
 
 @media(min-width:1114px) {
-    .all_icons_container {
+    .footer_icons--container {
         align-items: baseline;
         row-gap: 40px;
     }

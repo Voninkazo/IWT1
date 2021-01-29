@@ -1,18 +1,15 @@
 body>footer {
     background-color: hsl(233, 26%, 24%);
     padding-top: 80px;
-    .footer_container {
+    .footer_mainContainer {
         display: flex;
         flex-direction: column;
         gap: 20px;
         padding-bottom: 40px;
-        .footer_logo {
-            text-align: center;
-        }
         .btn_invite {
             text-align: center;
         }
-        .all_icons_container {
+        .footer_icons--container {
             display: flex;
             flex-direction: column;
         }
@@ -22,7 +19,7 @@ body>footer {
 @media(min-width: 1114px) {
     body>footer {
         padding-top: 30px;
-        .footer_container {
+        .footer_mainContainer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;

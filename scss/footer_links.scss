@@ -1,15 +1,14 @@
-.footer_links_container {
+.footer_links--container {
     text-align: center;
     ul {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        li {}
     }
 }
 
 @media(min-width: 1114px) {
-    .footer_links_container {
+    .footer_links--container {
         text-align: start;
         ul {
             display: grid;
