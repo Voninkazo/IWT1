@@ -1,0 +1,13 @@
+.button_invite--container {
+    text-align: center;
+}
+
+.invite_button {
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(to right, #1de027, #4ca2cb) !important;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    white-space: nowrap;
+}

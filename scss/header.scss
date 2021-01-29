@@ -5,7 +5,7 @@ body>header {
         justify-content: space-between;
         align-items: baseline;
     }
-    .invite_button {
+    .button_invite--container {
         display: none;
     }
 }
@@ -16,7 +16,7 @@ body>header {
             display: block;
         }
         .header_container {
-            .invite_button {
+            .button_invite--container {
                 order: 1;
             }
         }

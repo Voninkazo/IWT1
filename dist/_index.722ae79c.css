@@ -70,7 +70,7 @@ body > header .header_container {
   justify-content: space-between;
   align-items: baseline;
 }
-body > header .invite_button {
+body > header .button_invite--container {
   display: none;
 }
 
@@ -78,7 +78,7 @@ body > header .invite_button {
   body header .invite_button {
     display: block;
   }
-  body header .header_container .invite_button {
+  body header .header_container .button_invite--container {
     order: 1;
   }
 }
@@ -170,7 +170,7 @@ input[type=checkbox]:checked ~ header label.icon_close {
 .section_masthead .section_masthead__mainContainer {
   margin-left: 7%;
 }
-.section_masthead .section_masthead__mainContainer .section_masthead__image--container img {
+.section_masthead .section_masthead__img--container img {
   width: 100%;
 }
 
@@ -249,7 +249,7 @@ body > footer .footer_mainContainer {
   gap: 20px;
   padding-bottom: 40px;
 }
-body > footer .footer_mainContainer .btn_invite {
+body > footer .footer_mainContainer .butonn_invite {
   text-align: center;
 }
 body > footer .footer_mainContainer .footer_icons--container {
@@ -265,6 +265,7 @@ body > footer .footer_mainContainer .footer_icons--container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
     padding-bottom: 15px;
   }
 }
@@ -308,6 +309,19 @@ body > footer .footer_mainContainer .footer_icons--container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 130px;
   }
+}
+.button_invite--container {
+  text-align: center;
+}
+
+.invite_button {
+  color: white;
+  background: linear-gradient(to right, #1de027, #4ca2cb) !important;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 25px;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=/_index.722ae79c.css.map */
